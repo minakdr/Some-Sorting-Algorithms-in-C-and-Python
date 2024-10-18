@@ -1,5 +1,11 @@
 #include <stdlib.h>
-#include <stdio.h>  //for rand
+#include <stdio.h>  //For rand
+
+//Selection sort works by repeatedly finding the smallest element from the unsorted part of the list and swapping it with the first unsorted element. 
+//This process continues until the entire list is sorted.
+
+//The complexity is always: O(n^2)
+
 void selection__sort(int vector[], int n) {
     int i, j, min, temp;
 
